@@ -6,7 +6,6 @@
   "types": "dist/main.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "npm run build && node dist/test/test.js",
     "prepublish": "npm run build",
     "postinstall": "npm run build"
   },
